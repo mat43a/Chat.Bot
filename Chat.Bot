@@ -1,0 +1,38 @@
+using System;
+
+namespace Chat.Bot
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("BOT: XXXXXXXX");
+            Console.WriteLine("YOU: 1: XXXXXX" +
+                " 2: XXXXXXY" +
+                " 3: XXXXXXZ" + 
+                " 4: XXXXXXXA");
+            int chois = int.Parse(Console.ReadLine());
+
+            while (chois != 4)
+            {
+                
+                if (chois == 1)
+                {
+                    Console.WriteLine("Bot:XXXXXXX");
+                }
+                else if (chois == 2)
+                {
+                    Console.WriteLine("Bot:XXXXXXX");
+                }
+                else if (chois == 3)
+                {
+                    Console.WriteLine("Bot:XXXXXXX");
+                }
+                chois = int.Parse(Console.ReadLine());
+            }
+            
+
+
+        }
+    }
+}
