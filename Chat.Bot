@@ -18,7 +18,23 @@ namespace Chat.Bot
                 
                 if (chois == 1)
                 {
-                    Console.WriteLine("Bot:XXXXXXX");
+                     Console.WriteLine("Bot: 1: XXXXXXX" +
+                      " 2: XXXXXX" + " 3: XXXXXXX");
+                    int chois2 = int.Parse(Console.ReadLine());
+                    while(chois2 != 3);
+                    {
+                        
+                        if (chois2 == 1)
+                        {
+                            Console.WriteLine("Bot: YYYYYYY");
+                        }
+                        else if (chois2 == 2)
+                        {
+                            Console.WriteLine("Bot: XXXXXXXX");
+                        }
+                        Console.WriteLine("Bot: 1: XXXXXXX" +
+                      " 2: XXXXXX" + " 3: XXXXXXX");
+                        chois2 = int.Parse(Console.ReadLine());
                 }
                 else if (chois == 2)
                 {
@@ -30,7 +46,11 @@ namespace Chat.Bot
                 }
                 chois = int.Parse(Console.ReadLine());
             }
-            
+            Console.WriteLine("YOU: 1: XXXXXX"
+                    + " 2: XXXXXXY"
+                    + " 3: XXXXXXZ"
+                    + " 4: XXXXXXXA");
+                chois = int.Parse(Console.ReadLine());
 
 
         }
